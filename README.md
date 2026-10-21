@@ -1,12 +1,13 @@
-# ClearQuote Studio — wizekin public website
+# ClearQuote Studio — website source
 
-This branch hosts the public marketing site and free calculator in the connected **wizekin** GitHub account. The default `main` branch retains the GitHub profile README.
+This branch contains the public **ClearQuote Studio** website and free project pricing calculator for the GitHub account `wizekin`.
 
-- Source: https://github.com/wizekin/wizekin/tree/clearquote-studio-site
-- Hosting target: Netlify, branch `clearquote-studio-site` and publish folder `.`. Netlify is not yet connected.
-- Payment: Gumroad seller account `mahsala` is still connected separately. There is no published Gumroad product yet.
-- After publication and test purchase, set `assets/store-config.js` to the real Gumroad `https://...gumroad.com/l/...` URL to activate checkout.
-- Do not commit paid ZIP files, account tokens or buyer data into this public branch.
-- Prefer a dedicated `wizekin/clearquote-studio` repo later when repository creation is available.
+- Published purchase page: https://wizekin.gumroad.com/l/wnmrl (**$3 as verified on 2026-10-21**).
+- Website source: https://github.com/wizekin/wizekin/tree/clearquote-studio-site
+- Live hosted website: **not deployed / not verified yet**. Cloudflare connection rejected credentials; connect a working static host such as Vercel.
+- Deploy this branch using a static host. Build command: none. Publish root: `.`.
+- Resource pages: `guides/how-to-price-a-freelance-project.html`, `guides/quote-vs-invoice.html`, `guides/freelance-deposit-calculator.html`.
+- Visitor analytics: not active until a host with analytics is connected. Use Gumroad dashboard for verified sales data.
+- Keep the **paid** ClearQuote ZIP outside this public repository.
 
-Current branch is repository source only; not a live public website.
+Customers must buy the paid download through Gumroad. This repository is marketing content and a free tool only.
